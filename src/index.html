@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Site with Bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary">
+        <!-- Navbar content -->
+        <a class="navbar-brand text-secondary" href="#">
+            <img src="/images/hamburger.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Benny's
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#about-us">
+                        The idea
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#team">
+                        News
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#contact">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero text-light jumbotron jumbotron-fluid">
+        <div class="container pt-5 pb-4">
+            <h1 class="display-1">Benny's Burger</h1>
+            <p class="lead mb-3">Hands down, best burger in town
+            </p>
+            <button class="btn btn-secondary btn-lg">See the menu</button>
+        </div>
+    </div>
+
+    <div class="container py-5" id="about-us">
+        <h2 class="display-4 text-center mb-5">The idea</h2>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="d-flex justify-content-center">
+                    <div class="icon border border-dark mb-3 bg-light p-3 rounded-circle">
+                        <img src="images/care.svg" alt="">
+                    </div>
+                </div>
+                <h2 class="text-center mb-4">100% organic</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus pariatur cupiditate corrupti itaque
+                    non fugiat dolorem molestiae nam fugit placeat voluptas cumque, odio mollitia dolorum nostrum
+                    distinctio a harum similique!
+                </p>
+
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="d-flex justify-content-center">
+                    <div class="icon border border-dark bg-light p-3 mb-3 rounded-circle">
+                        <img src="images/plant.svg" alt="">
+                    </div>
+                </div>
+                <h2 class="text-center mb-4">Vegan</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti vel, aut nemo blanditiis
+                    consequuntur soluta fugit, tenetur nulla, ad laudantium voluptate in aliquam. Distinctio, cum
+                    quaerat illo officia minus nihil?
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="d-flex justify-content-center">
+                    <div class="icon border border-dark bg-light mb-3 p-3 rounded-circle">
+                        <img src="images/heart.svg" alt="" class="icon">
+                    </div>
+                </div>
+                <h2 class="text-center mb-4">No animal cruelty</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam rem, aliquam debitis fugiat vitae
+                    aliquid minima modi. Eaque, labore maiores perspiciatis error non modi qui, dicta ducimus a hic
+                    nisi!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5  bg-secondary " id="team">
+        <h2 class="display-4 text-light text-center mb-5">What's new at Benny's</h2>
+        <div class="d-flex pb-5 align-items-center scrollable-container">
+            <div class="card mr-5 flex-shrink-0" style="width: 18rem;">
+                <img class="card-img-top" src="images/dan-gold-E6HjQaB7UEA-unsplash.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Win a free lunch</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At vero incidunt
+                        velit facere commodi blanditiis quam cum sunt numquam.</p>
+                    <a href="#" class="btn  btn-outline-secondary">Learn more &#8594;</a>
+                </div>
+            </div>
+
+            <div class="card mr-5 flex-shrink-0" style="width: 18rem;">
+                <img class="card-img-top" src="images/jon-tyson-_j-sUa8lHy4-unsplash.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Live music every Thursday</h5>
+                    <p class="card-text">At error culpa vitae expedita necessitatibus quaerat, neque veniam eligendi
+                        inventore quibusdam.</p>
+                    <a href="#" class="btn  btn-outline-secondary">Learn more &#8594;</a>
+                </div>
+            </div>
+
+            <div class="card mr-5 flex-shrink-0" style="width: 18rem;">
+                <img class="card-img-top" src="images/mae-mu-I7A_pHLcQK8-unsplash.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Double deck</h5>
+                    <p class="card-text">Inventore quibusdam vero incidunt velit facere commodi blanditiis quam cum sunt
+                        numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eius velit incidunt a
+                        modi nihil voluptate eos corrupti illo! Quaerat et aliquid fuga quia eius aspernatur ea totam
+                        ipsum perferendis.</p>
+                    <a href="#" class="btn  btn-outline-secondary">Learn more &#8594;</a>
+                </div>
+            </div>
+
+            <div class="card mr-5 flex-shrink-0" style="width: 18rem;">
+                <img class="card-img-top" src="images/zac-cain-jLzukAj_PhQ-unsplash.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">BBQ Party 25.07</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo
+                        commodi odio nam, hic facere fugit, veniam consectetur, suscipit consequatur impedit odit.
+                        Obcaecati quidem veniam architecto numquam consequatur quae cupiditate?</p>
+                    <a href="#" class="btn  btn-outline-secondary">Learn more &#8594;</a>
+                </div>
+            </div>
+
+            <div class="card mr-5 flex-shrink-0" style="width: 18rem;">
+                <img class="card-img-top" src="images/oliver-sjostrom-cff_w0ADWIA-unsplash.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Mozarella Burgers</h5>
+                    <p class="card-text">Ullam explicabo commodi odio nam, hic facere fugit, veniam consectetur,
+                        suscipit consequatur impedit odit.</p>
+                    <a href="#" class="btn  btn-outline-secondary">Learn more &#8594;</a>
+                </div>
+            </div>
+
+            <div class="card mr-5 flex-shrink-0" style="width: 18rem;">
+                <img class="card-img-top" src="images/peter-dawn-sxZ_Ca6MkWM-unsplash.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Perfect date</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorem
+                        earum blanditiis cupiditate ducimus. Explicabo maxime doloremque repellat quaerat quis autem
+                        fuga, culpa sit omnis! Ducimus quaerat nobis aut id!</p>
+                    <a href="#" class="btn  btn-outline-secondary">Learn more &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5" id="contact">
+        <h2 class="display-4 text-center mb-5">Book a table</h2>
+        <div class="row">
+            <form action="#" class="col-sm-12 offset-md-3 col-md-6 offset-lg-4 col-lg-4">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Full name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Number of guests</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>more than 5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Additional notes</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="container-fluid bg-primary py-3">
+        <p class="text-right text-light text-muted my-0">
+            Copyright 2019
+        </p>
+    </footer>
+</body>
+
+</html>

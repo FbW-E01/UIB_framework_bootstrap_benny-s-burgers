@@ -1,0 +1,70 @@
+// Import custom fonts
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap');
+
+// Text
+$body-color: #444;
+$font-family-sans-serif: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$enable-responsive-font-sizes: true; 
+
+// body {
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+// }
+
+// Headings
+$headings-font-family: 'Love Ya Like A Sister', cursive;
+
+$display1-size:               8rem !default;
+$display2-size:               6.5rem !default;
+$display3-size:               5.5rem !default;
+$display4-size:               4.5rem !default;
+
+// Lead
+$lead-font-size: $font-size-base * 1.5;
+
+// Forms 
+$form-group-margin-bottom: 1.5rem;
+
+// Theme colors
+
+
+$theme-colors:(
+"primary":  #000,
+"secondary": #7a44ff
+);
+
+// Border radius
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+
+
+// Card
+$card-border-color: map-get($theme-colors, 'primary');
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.hero {
+    background-color: #000;
+    background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.scrollable-container {
+    overflow: hidden;
+    overflow-x:scroll;
+}
+
+.icon {
+    width: 75px;
+    height: 75px;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
